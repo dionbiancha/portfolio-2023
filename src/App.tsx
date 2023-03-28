@@ -1,5 +1,13 @@
+import "./App.css";
+import { About } from "src/pages";
+
 function App() {
-  return <div className="App">Hello World</div>;
+  return (
+    <div>
+      <div className="header"></div>
+      <About />
+    </div>
+  );
 }
 
 export default App;
