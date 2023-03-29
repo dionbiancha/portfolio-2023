@@ -1,5 +1,5 @@
 :root {
-  font-family: "Roboto", sans-serif;
+  font-family: "azo-sans-web", sans-serif;
   color: #ffffff;
   background-color: #140317;
   font-synthesis: none;
@@ -11,8 +11,6 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  width: 100%;
   min-height: 100vh;
 }

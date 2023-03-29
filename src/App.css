@@ -3,4 +3,15 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 94%;
+  position: fixed;
+  padding: 3%;
+  z-index: 2;
+}
+.link-header {
+  text-decoration: none;
+  color: #fff;
+}
+.content {
+  width: 100%;
 }

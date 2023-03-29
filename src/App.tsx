@@ -7,12 +7,20 @@ import "./i18n";
 function App() {
   const { t } = useTranslation("home");
   return (
-    <div>
-      <div className="header"></div>
-      {t("message")}
-      <LanguageSelection />
-      <About />
-    </div>
+    <>
+      <div className="header">
+        <a className="link-header" href="url">
+          BLOG
+        </a>
+        <LanguageSelection />
+        <a className="link-header" href="url">
+          {t("PROJETOS")}
+        </a>
+      </div>
+      <div className="content">
+        <About />
+      </div>
+    </>
   );
 }
 
