@@ -2,7 +2,10 @@ import "./style.css";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { CharacterSketch } from "src/assets";
 
-function About() {
+const LINK_LINKEDIN = "https://www.linkedin.com/in/dionbiancha/";
+const LINK_GITHUB = "https://github.com/dionbiancha";
+
+function AboutPage() {
   return (
     <div className="content">
       <div className="background-radial" />
@@ -17,11 +20,17 @@ function About() {
       <h1>BIANCHATI</h1>
       <h2>ReactJS | NextJS | TypesScript | Cypress</h2>
       <div className="social-links">
-        <BsLinkedin className="icon" />
-        <BsGithub className="icon" />
+        <BsLinkedin
+          className="icon"
+          onClick={() => window.open(LINK_LINKEDIN, "_blank")}
+        />
+        <BsGithub
+          className="icon"
+          onClick={() => window.open(LINK_GITHUB, "_blank")}
+        />
       </div>
     </div>
   );
 }
 
-export default About;
+export default AboutPage;

@@ -1,13 +1,14 @@
 import "./App.css";
-import { About } from "src/pages";
+import { AboutPage, TogheterPage, WhatIDoPage, AwardsPage } from "src/pages";
 import { useTranslation } from "react-i18next";
 import LanguageSelection from "src/features/LanguageSelection";
 import "./i18n";
 
 function App() {
   const { t } = useTranslation("home");
+
   return (
-    <>
+    <div>
       <div className="header">
         <a className="link-header" href="url">
           BLOG
@@ -17,10 +18,13 @@ function App() {
           {t("PROJETOS")}
         </a>
       </div>
-      <div className="content">
-        <About />
+      <div className="container">
+        <AboutPage />
+        <WhatIDoPage />
+        <TogheterPage />
+        <AwardsPage />
       </div>
-    </>
+    </div>
   );
 }
 

@@ -46,6 +46,12 @@ h2 {
 .icon {
   height: 30px;
   width: 30px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  transition: 0.3s;
 }
 
 .character-sketch {
@@ -59,14 +65,14 @@ h2 {
 .background-radial {
   height: 100vh;
   position: fixed;
-  top: -50%;
-  margin-right: -50%;
+  top: -30%;
+  margin-right: -30%;
   right: 0;
   width: 100%;
-  background: rgb(29, 1, 53);
   background: radial-gradient(
-    circle,
-    rgba(29, 1, 53, 1) 0%,
-    rgba(66, 5, 101, 0) 67%
+    50% 50% at 50% 50%,
+    #1d0135 0%,
+    rgba(66, 5, 101, 0) 100%
   );
+  opacity: 0.55;
 }

@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  max-width: 1200px;
+}
+
+.count {
+  color: #f2ecd6;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.button {
+  height: 40px;
+  width: 40px;
+  margin-top: 40px;
+  color: #9268a6;
+  cursor: pointer;
+}
+
+.carousel {
+  max-width: 900px;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.year {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3f1859;
+  color: #ffffff;
+  padding: 5px;
+  width: 60px;
+  font-size: 12px;
+}
+
+.dashLine {
+  border-top: 1px dashed #ffffff80;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+}

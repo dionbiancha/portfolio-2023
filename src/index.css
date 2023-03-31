@@ -2,15 +2,8 @@
   font-family: "azo-sans-web", sans-serif;
   color: #ffffff;
   background-color: #140317;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
-  width: 100%;
-  min-height: 100vh;
 }
