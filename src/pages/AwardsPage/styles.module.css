@@ -1,10 +1,37 @@
+@media (max-width: 599px) {
+  .navigation {
+    display: none;
+  }
+  .carousel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .container {
+    padding: 50px 0px 0px 0px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 600px) {
+  .carousel {
+    max-width: 900px;
+    width: 100%;
+  }
+  .container {
+    padding: 50px;
+    margin-top: 100px;
+  }
+}
+
 .container {
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 50px;
-  margin-top: 100px;
+
   position: relative;
 }
 
@@ -36,11 +63,6 @@
   cursor: pointer;
 }
 
-.carousel {
-  max-width: 900px;
-  width: 100%;
-}
-
 .card {
   display: flex;
   align-items: center;
@@ -68,4 +90,8 @@
   width: 100%;
   position: absolute;
   top: 60px;
+}
+
+.iconCard {
+  height: 130px;
 }

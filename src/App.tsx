@@ -1,20 +1,43 @@
 import "./App.css";
-import { AboutPage, TogheterPage, WhatIDoPage, AwardsPage } from "src/pages";
+import {
+  AboutPage,
+  TogheterPage,
+  WhatIDoPage,
+  AwardsPage,
+  ProjectsPage,
+  FooterPage,
+} from "src/pages";
 import { useTranslation } from "react-i18next";
 import LanguageSelection from "src/features/LanguageSelection";
 import "./i18n";
+import { useEffect, useState } from "react";
+import { MenuProvider } from "./context/MenuContext";
 
 function App() {
   const { t } = useTranslation("home");
+  const [navbar, setNavbar] = useState(false);
+
+  const changeBackground = () => {
+    if (window.scrollY >= 66) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  useEffect(() => {
+    changeBackground();
+    window.addEventListener("scroll", changeBackground);
+  });
 
   return (
-    <div>
-      <div className="header">
+    <MenuProvider>
+      <div className={navbar ? "header-active" : "header"}>
         <a className="link-header" href="url">
           BLOG
         </a>
         <LanguageSelection />
-        <a className="link-header" href="url">
+        <a className="link-header" href="#projects">
           {t("PROJETOS")}
         </a>
       </div>
@@ -23,8 +46,10 @@ function App() {
         <WhatIDoPage />
         <TogheterPage />
         <AwardsPage />
+        <ProjectsPage />
+        <FooterPage />
       </div>
-    </div>
+    </MenuProvider>
   );
 }
 

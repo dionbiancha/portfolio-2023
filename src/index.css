@@ -2,8 +2,15 @@
   font-family: "azo-sans-web", sans-serif;
   color: #ffffff;
   background-color: #140317;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
+}
+
+p,
+h1,
+h2 {
+  z-index: 2;
 }

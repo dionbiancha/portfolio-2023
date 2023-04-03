@@ -1,5 +1,40 @@
 {
   "home": {
     "PROJETOS": "PROJETOS"
+  },
+  "whatIdo": {
+    "O que eu faço": "O que eu faço",
+    "Encante seus usuários": "Encante seus usuários",
+    "Criação de designs visuais atraentes e funcionais que proporcionam uma experiência de usuário excepcional em produtos ou serviços digitais, tornando a usabilidade intuitiva e mantendo a identidade de marca consistente.": "Criação de designs visuais atraentes e funcionais que proporcionam uma experiência de usuário excepcional em produtos ou serviços digitais, tornando a usabilidade intuitiva e mantendo a identidade de marca consistente.",
+    "Aplicação de sucesso": "Aplicação de sucesso",
+    "Soluções inovadoras e personalizadas em aplicativos móveis, desde a ideia até a publicação na loja de aplicativos, garantindo uma experiência de usuário intuitiva e atraente.": "Soluções inovadoras e personalizadas em aplicativos móveis, desde a ideia até a publicação na loja de aplicativos, garantindo uma experiência de usuário intuitiva e atraente.",
+    "Presença online eficiente": "Presença online eficiente",
+    "Foco no desenvolvimento de alto desempenho e escalabilidade, entregando soluções web personalizadas para sua empresa.": "Foco no desenvolvimento de alto desempenho e escalabilidade, entregando soluções web personalizadas para sua empresa."
+  },
+  "together": {
+    "Como podemos": "Como podemos",
+    "trabalhar": "trabalhar",
+    "juntos": "juntos",
+    "Detalhes": "Detalhes",
+    "Venha com um resumo do projeto ou detalhes curtos do projeto que você tem atualmente para dar uma ideia do seu projeto ou produto.": "Venha com um resumo do projeto ou detalhes curtos do projeto que você tem atualmente para dar uma ideia do seu projeto ou produto.",
+    "Perguntas": "Perguntas",
+    "Depois de obter os detalhes de você, farei perguntas relacionadas ao seu projeto para entender a duração e o escopo do projeto.": "Depois de obter os detalhes de você, farei perguntas relacionadas ao seu projeto para entender a duração e o escopo do projeto.",
+    "Orçamento": "Orçamento",
+    "Estarei fornecendo-lhe uma cotação para o projeto depois de ter as respostas de você.": "Estarei fornecendo-lhe uma cotação para o projeto depois de ter as respostas de você.",
+    "Inicio": "Inicio",
+    "Se o orçamento funcionar para nós dois, podemos ter uma breve reunião ou podemos entrar diretamente no processo inicial.": "Se o orçamento funcionar para nós dois, podemos ter uma breve reunião ou podemos entrar diretamente no processo inicial."
+  },
+  "awards": {
+    "Conquistas": "Conquistas",
+    "O Hackatour Cataratas é um espaço incentivador para o surgimento de novas soluções para o turismo, uma maratona de criação e desenvolvimento para que ideias possam ser concretizadas em bons negócios.": "O Hackatour Cataratas é um espaço incentivador para o surgimento de novas soluções para o turismo, uma maratona de criação e desenvolvimento para que ideias possam ser concretizadas em bons negócios."
+  },
+  "projects": {
+    "Projetos Recentes": "Projetos Recentes"
+  },
+  "footer": {
+    "Preparado": "Preparado",
+    "para tirar sua": " para tirar sua",
+    "ideia do": "ideia do",
+    "papel": "papel"
   }
 }

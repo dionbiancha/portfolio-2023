@@ -6,21 +6,19 @@ import {
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { IconCard } from "src/assets";
+import { useTranslation } from "react-i18next";
 
 const AWARDS_LIST = [
   {
     year: "2023",
-    logo: <img alt="icon" className={styles.iconCard} src={IconCard} />,
-    text: "O Hackatour Cataratas é um espaço incentivador para o surgimento de novas soluções para o turismo, uma maratona de criação e desenvolvimento para que ideias possam ser concretizadas em bons negócios.",
-  },
-  {
-    year: "2023",
+    title: "Hackatour Cataratas",
     logo: <img alt="icon" className={styles.iconCard} src={IconCard} />,
     text: "O Hackatour Cataratas é um espaço incentivador para o surgimento de novas soluções para o turismo, uma maratona de criação e desenvolvimento para que ideias possam ser concretizadas em bons negócios.",
   },
 ];
 
 function AwardsPage() {
+  const { t } = useTranslation("awards");
   const clickButton = (id: string) => {
     const botao = document.getElementById(id);
     if (botao === null) return;
@@ -30,11 +28,8 @@ function AwardsPage() {
     <div className={styles.container}>
       <div className={styles.dashLine} />
       <div className={styles.content}>
-        <div>
-          <div className={styles.count}>1/1</div>
-          <div className={styles.title}>
-            Personal <br /> Awards
-          </div>
+        <div className={styles.navigation}>
+          <div className={styles.title}>{t("Conquistas")}</div>
           <div>
             <IoIosArrowDropleftCircle
               onClick={() => clickButton("back")}
@@ -62,7 +57,8 @@ function AwardsPage() {
               <div key={index} className={styles.card}>
                 <div className={styles.year}>{info.year}</div>
                 {info.logo}
-                <div className={styles.text}>{info.text}</div>
+                <h3>{info.title}</h3>
+                <div className={styles.text}>{t(info.text)}</div>
               </div>
             ))}
           </AliceCarousel>

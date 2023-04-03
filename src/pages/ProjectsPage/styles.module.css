@@ -1,0 +1,199 @@
+@media (max-width: 599px) {
+  .button {
+    padding: 10px 8px;
+    width: 60px;
+    font-size: 8px;
+  }
+  .buttonSelected {
+    padding: 10px 8px;
+    width: 60px;
+    font-size: 8px;
+  }
+  .container {
+    align-items: flex-start;
+    padding: 30px;
+    margin-top: 50px;
+  }
+  .title {
+    font-size: 30px;
+    text-align: left;
+  }
+  .content {
+    align-items: flex-start;
+  }
+  .listArea {
+    margin-top: 30px;
+  }
+  .listItem {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .infoText {
+    display: none;
+  }
+  .infoIcon {
+    display: none;
+  }
+  .nameItem {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .yearItem {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 600px) {
+  .button {
+    padding: 13px 10px;
+    width: 100px;
+    font-size: 12px;
+  }
+  .buttonSelected {
+    padding: 13px 10px;
+    width: 100px;
+    font-size: 12px;
+  }
+  .container {
+    align-items: center;
+    padding: 50px;
+    margin-top: 100px;
+  }
+  .title {
+    font-size: 50px;
+    text-align: center;
+  }
+  .content {
+    align-items: center;
+  }
+  .listArea {
+    margin-top: 50px;
+  }
+  .listItem {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nameItem {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+.container {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  max-width: 1200px;
+}
+
+.title {
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.buttonArea {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 400px;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #692d86;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.buttonSelected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #140317;
+  font-weight: 500;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.listArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  border-top: 1px solid #5a278c;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 1px solid #5a278c;
+  cursor: pointer;
+  color: #fff;
+}
+
+.listItem:hover {
+  color: #140317;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 9px;
+}
+
+.iconItem {
+  width: 30px;
+  height: 30px;
+}
+
+.infoArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.infoIcon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.infoText {
+  font-size: 12px;
+  margin: 0px;
+}
+
+.nameItem {
+  font-weight: 600;
+}
+
+.areaName {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.yearItem {
+  font-weight: 600;
+}

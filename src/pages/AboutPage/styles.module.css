@@ -1,26 +1,56 @@
-p,
-h1,
-h2 {
-  margin: 0;
-  z-index: 2;
+@media (max-width: 599px) {
+  p {
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 100px;
+  }
+
+  h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 35px;
+  }
+
+  h2 {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
+  }
+}
+
+@media (min-width: 600px) {
+  p {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 100px;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 70px;
+    margin: 0;
+  }
+
+  h2 {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
+  }
 }
 
 p {
-  font-weight: 600;
-  font-size: 20px;
-  margin-top: 100px;
+  margin: 0;
 }
 
 h1 {
-  font-size: 80px;
-  font-weight: 800;
-  line-height: 70px;
+  margin: 0;
 }
 
 h2 {
-  margin-top: 30px;
-  font-size: 15px;
-  font-weight: 200;
   font-style: italic;
 }
 
@@ -33,7 +63,7 @@ h2 {
   height: 100vh;
 }
 
-.social-links {
+.socialLinks {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -54,7 +84,7 @@ h2 {
   transition: 0.3s;
 }
 
-.character-sketch {
+.characterSketch {
   position: absolute;
   top: 100px;
   width: 100%;
@@ -62,7 +92,7 @@ h2 {
   z-index: 0;
 }
 
-.background-radial {
+.backgroundRadial {
   height: 100vh;
   position: fixed;
   top: -30%;

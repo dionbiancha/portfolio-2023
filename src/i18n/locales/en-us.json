@@ -1,5 +1,40 @@
 {
   "home": {
     "PROJETOS": "PROJECTS"
+  },
+  "whatIdo": {
+    "O que eu faço": "What I Do",
+    "Encante seus usuários": "Delight your users",
+    "Criação de designs visuais atraentes e funcionais que proporcionam uma experiência de usuário excepcional em produtos ou serviços digitais, tornando a usabilidade intuitiva e mantendo a identidade de marca consistente.": "Creation of attractive and functional visual designs that provide an exceptional user experience in digital products or services, making usability intuitive and maintaining consistent brand identity.",
+    "Aplicação de sucesso": "Successful application",
+    "Soluções inovadoras e personalizadas em aplicativos móveis, desde a ideia até a publicação na loja de aplicativos, garantindo uma experiência de usuário intuitiva e atraente.": "Innovative and customized solutions in mobile applications, from the idea to the publication in the app store, guaranteeing an intuitive and attractive user experience.",
+    "Presença online eficiente": "Efficient online presence",
+    "Foco no desenvolvimento de alto desempenho e escalabilidade, entregando soluções web personalizadas para sua empresa.": "Focus on developing high performance and scalability, delivering customized web solutions for your company."
+  },
+  "together": {
+    "Como podemos": "How we can",
+    "trabalhar": "work",
+    "juntos": "together",
+    "Detalhes": "Brief/Short Details",
+    "Venha com um resumo do projeto ou detalhes curtos do projeto que você tem atualmente para dar uma ideia do seu projeto ou produto.": "Come with a project summary or short details of the project you currently have to give an idea of ​​your project or product.",
+    "Perguntas": "Questions",
+    "Depois de obter os detalhes de você, farei perguntas relacionadas ao seu projeto para entender a duração e o escopo do projeto.": "After getting the details from you, I will ask you questions related to your project to understand the duration and scope of the project.",
+    "Orçamento": "Providing Quote",
+    "Estarei fornecendo-lhe uma cotação para o projeto depois de ter as respostas de você.": "I will be providing you with a quote for the project once I have the responses from you.",
+    "Inicio": "Get Started",
+    "Se o orçamento funcionar para nós dois, podemos ter uma breve reunião ou podemos entrar diretamente no processo inicial.": "If the quote works for both of us, we can have a short meeting or we can directly jump into the process of getting started."
+  },
+  "awards": {
+    "Conquistas": "Achievements",
+    "O Hackatour Cataratas é um espaço incentivador para o surgimento de novas soluções para o turismo, uma maratona de criação e desenvolvimento para que ideias possam ser concretizadas em bons negócios.": "Hackatour Cataratas is an encouraging space for the emergence of new solutions for tourism, a marathon of creation and development so that ideas can be turned into good business."
+  },
+  "projects": {
+    "Projetos Recentes": "Recent Projects"
+  },
+  "footer": {
+    "Preparado": "Ready to",
+    "para tirar sua": "shape your",
+    "ideia do": "valuable",
+    "papel": "idea"
   }
 }

@@ -1,15 +1,18 @@
+import { useTranslation } from "react-i18next";
 import styles from "./styles.module.css";
 import { CharacterSketchScreen } from "src/assets";
 
 function TogheterPage() {
+  const { t } = useTranslation("together");
+
   return (
     <div className={styles.container}>
-      <h2 className={styles.title}>
-        How we can <br />
-        <span style={{ color: "#F2ECD6" }}>work</span> together
-      </h2>
-
       <div className={styles.content}>
+        <h2 className={styles.title}>
+          {t("Como podemos")} <br />
+          <span style={{ color: "#F2ECD6" }}>{t("trabalhar")}</span>{" "}
+          {t("juntos")}
+        </h2>
         <img
           alt="character-sketch"
           className={styles.character}
@@ -19,17 +22,19 @@ function TogheterPage() {
           <div className={styles.textArea}>
             <span className={styles.number}>1</span>
             <p className={styles.text}>
-              <span className={styles.span}>Brief/Short Details:</span> Come to
-              us with a project brief or short project details that you have
-              currently to give us an idea of your project or product.
+              <span className={styles.span}>{t("Detalhes")}: </span>{" "}
+              {t(
+                "Venha com um resumo do projeto ou detalhes curtos do projeto que você tem atualmente para dar uma ideia do seu projeto ou produto."
+              )}
             </p>
           </div>
           <div className={styles.textArea}>
             <span className={styles.number}>2</span>
             <p className={styles.text}>
-              <span className={styles.span}>Questions: </span>After having the
-              details from you, we'll ask questions related to your project to
-              understand the project length and scope.
+              <span className={styles.span}>{t("Perguntas")}: </span>
+              {t(
+                "Depois de obter os detalhes de você, farei perguntas relacionadas ao seu projeto para entender a duração e o escopo do projeto."
+              )}
             </p>
           </div>
         </div>
@@ -37,17 +42,19 @@ function TogheterPage() {
           <div className={styles.textArea}>
             <span className={styles.number}>3</span>
             <p className={styles.text}>
-              <span className={styles.span}>Providing Quote:</span>We will be
-              providing you a quote for the project after having the answers
-              from you.
+              <span className={styles.span}>{t("Orçamento")}: </span>
+              {t(
+                "Estarei fornecendo-lhe uma cotação para o projeto depois de ter as respostas de você."
+              )}
             </p>
           </div>
           <div className={styles.textArea}>
             <span className={styles.number}>4</span>
             <p className={styles.text}>
-              <span className={styles.span}>Get Started:</span> If the quote
-              works for both of us, we can have a short meeting or we can
-              directly jump into the process of getting started.
+              <span className={styles.span}>{t("Inicio")}: </span>{" "}
+              {t(
+                "Se o orçamento funcionar para nós dois, podemos ter uma breve reunião ou podemos entrar diretamente no processo inicial."
+              )}
             </p>
           </div>
         </div>

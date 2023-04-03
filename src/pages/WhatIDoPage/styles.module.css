@@ -1,0 +1,109 @@
+@media (max-width: 599px) {
+  .title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  .content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .cardArea {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .marginCard {
+    width: 280px;
+  }
+  .card {
+    width: 200px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 600px) {
+  .title {
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+  }
+  .cardArea {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .marginCard {
+    width: 400px;
+  }
+  .card {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.textCard {
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.titleCard {
+  font-size: 23px;
+  font-weight: 600;
+}
+
+.alignCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #692d86;
+  border-radius: 9px;
+  padding: 20px;
+  position: relative;
+  margin: 25px;
+}
+
+.internCard {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.internCardNumber {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.internCardType {
+  color: #f2ecd6;
+}
+
+.iconCard {
+  width: 25px;
+  height: 25px;
+}
+
+.iconRol {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: -25px;
+  cursor: pointer;
+}
