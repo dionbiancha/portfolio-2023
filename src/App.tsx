@@ -34,7 +34,7 @@ function App() {
   return (
     <MenuProvider>
       <div className={navbar ? "header-active" : "header"}>
-        <a className="link-header" href="url">
+        <a className="link-header" href="https://medium.com/@dion.biancha">
           BLOG
         </a>
         <LanguageSelection />
