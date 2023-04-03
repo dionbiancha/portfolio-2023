@@ -6,6 +6,7 @@ import {
   AwardsPage,
   ProjectsPage,
   FooterPage,
+  TeamPage,
 } from "src/pages";
 import { useTranslation } from "react-i18next";
 import LanguageSelection from "src/features/LanguageSelection";
@@ -45,6 +46,7 @@ function App() {
         <AboutPage />
         <WhatIDoPage />
         <TogheterPage />
+        <TeamPage />
         <AwardsPage />
         <ProjectsPage />
         <FooterPage />

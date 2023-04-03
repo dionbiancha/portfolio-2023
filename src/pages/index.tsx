@@ -4,6 +4,7 @@ import TogheterPage from "./TogheterPage";
 import AwardsPage from "./AwardsPage";
 import ProjectsPage from "./ProjectsPage";
 import FooterPage from "./FooterPage";
+import TeamPage from "./TeamPage";
 
 export {
   AboutPage,
@@ -12,4 +13,5 @@ export {
   AwardsPage,
   ProjectsPage,
   FooterPage,
+  TeamPage,
 };
