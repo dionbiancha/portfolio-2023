@@ -73,7 +73,7 @@ const LIST_PROJECTS = [
   },
   {
     year: "2023",
-    name: "SOS Construir",
+    name: "SOS",
     description:
       "Figma Website of solutions in the area of ​​construction/renovations",
     link: "https://www.figma.com/proto/slPO71A4Tae7B2VsdudfCx/SOS---Portif%C3%B3lio-Digital?page-id=0%3A1&node-id=12-100",
