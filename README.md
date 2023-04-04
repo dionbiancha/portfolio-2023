@@ -33,12 +33,12 @@
   <a href="#memo-license">License</a>
 </p>
 
-<!-- <p align="center">
-  <img alt="Print" src="https://res.cloudinary.com/dionbiancha/image/upload/v1642553690/github/chrome-capture_1_g2x1jf.gif">
-</p> -->
+<p align="center">
+  <img alt="Print" src="public/preview.gif">
+</p>
 
 <p align="center">
-  <a href="https://portfolio-2023-eta.vercel.app/" target="_blank">
+  <a href="portfolio-2023-one-sable.vercel.app" target="_blank">
     <img alt="N33dful" src="https://res.cloudinary.com/dionbiancha/image/upload/v1610500435/github/view_on_github_n2rq43.png">
   </a>
 </p>
@@ -48,7 +48,9 @@
 This project was developed with the following technologies:
 
 - [ReactJS](https://pt-br.reactjs.org/)
-- [Styled Components](https://styled-components.com/)
+- [i18next](https://www.i18next.com/)
+- [react-alice-carousel](https://www.npmjs.com/package/react-alice-carousel)
+- [react-icons](https://react-icons.github.io/react-icons/)
 - [VS Code](https://code.visualstudio.com/)
 
 ## :information_source: How To Use
@@ -63,7 +65,7 @@ $ git clone https://github.com/dionbiancha/portfolio-2023.git
 $ cd portfolio-2023
 
 # Run the app
-$ yarn start
+$ yarn dev
 ```
 
 ## :memo: License

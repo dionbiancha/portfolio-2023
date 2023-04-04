@@ -2,7 +2,6 @@
   p {
     font-weight: 600;
     font-size: 15px;
-    margin-top: 100px;
   }
 
   h1 {
@@ -23,7 +22,6 @@
   p {
     font-weight: 600;
     font-size: 20px;
-    margin-top: 100px;
     margin: 0;
   }
 
@@ -85,11 +83,10 @@ h2 {
 }
 
 .characterSketch {
-  position: absolute;
-  top: 100px;
   width: 100%;
   max-width: 350px;
   z-index: 0;
+  margin-bottom: -200px;
 }
 
 .backgroundRadial {
