@@ -34,7 +34,11 @@ function App() {
   return (
     <MenuProvider>
       <div className={navbar ? "header-active" : "header"}>
-        <a className="link-header" href="https://medium.com/@dion.biancha">
+        <a
+          className="link-header"
+          target="_blank"
+          href="https://medium.com/@dion.biancha"
+        >
           BLOG
         </a>
         <LanguageSelection />
@@ -46,9 +50,9 @@ function App() {
         <AboutPage />
         <WhatIDoPage />
         <TogheterPage />
+        <ProjectsPage />
         <TeamPage />
         <AwardsPage />
-        <ProjectsPage />
         <FooterPage />
       </div>
     </MenuProvider>
