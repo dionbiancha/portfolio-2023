@@ -2,6 +2,8 @@ import { useState, useContext } from "react";
 import styles from "./styles.module.css";
 import { useTranslation } from "react-i18next";
 import { lala, riri, vivi } from "src/assets";
+import AliceCarousel from "react-alice-carousel";
+import "react-alice-carousel/lib/alice-carousel.css";
 
 const TEAM_LIST = [
   {
@@ -32,17 +34,24 @@ function TeamPage() {
       <div className={styles.content}>
         <h2 className={styles.title}>{t("Equipe que ja trabalhei!")}</h2>
         <div className={styles.team}>
-          {TEAM_LIST.map((value, index) => (
-            <li
-              key={index}
-              className={styles.item}
-              onClick={() => window.open(value.link, "_blank")}
-            >
-              <img alt="img" className={styles.image} src={value.img} />
-              <div className={styles.name}>{value.name}</div>
-              <div className={styles.work}>{value.work}</div>
-            </li>
-          ))}
+          <AliceCarousel
+            autoWidth={true}
+            mouseTracking
+            disableDotsControls={true}
+            disableButtonsControls={true}
+          >
+            {TEAM_LIST.map((value, index) => (
+              <li
+                key={index}
+                className={styles.item}
+                onClick={() => window.open(value.link, "_blank")}
+              >
+                <img alt="img" className={styles.image} src={value.img} />
+                <div className={styles.name}>{value.name}</div>
+                <div className={styles.work}>{value.work}</div>
+              </li>
+            ))}
+          </AliceCarousel>
         </div>
       </div>
     </div>

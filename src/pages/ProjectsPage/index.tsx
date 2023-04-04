@@ -18,29 +18,65 @@ const LIST_PROJECTS = [
   {
     year: "2023",
     name: "Adaptour",
-    description: "Projeto idealizado para o Hackatour Cataratas 2023",
+    description: "Project idealized for Hackatour Cataratas 2023",
     link: "#",
     type: SELECTED.webDev,
   },
   {
-    year: "2023",
-    name: "Adaptour",
-    description: "Projeto idealizado para o Hackatour Cataratas 2023",
-    link: "#",
+    year: "2022",
+    name: "Idea",
+    description: "Portfolio version for the year 2021",
+    link: "https://idea-portfolio.vercel.app/",
     type: SELECTED.webDev,
   },
   {
+    year: "2021",
+    name: "Starbucks",
+    description: "Starbucks Landing Page Responsive ☕",
+    link: "https://dionbiancha.github.io/starbucks-landing-page/",
+    type: SELECTED.webDev,
+  },
+  {
+    year: "2021",
+    name: "Portfolio",
+    description: "Portfolio version for the year 2021",
+    link: "https://mature-portfolio.vercel.app/",
+    type: SELECTED.webDev,
+  },
+  {
+    year: "2021",
+    name: "Definitive",
+    description: "Portfolio developed to captivate company recruiters.",
+    link: "https://definitive-portfolio.vercel.app/",
+    type: SELECTED.webDev,
+  },
+  {
+    year: "2019",
+    name: "Devsapp",
+    description: "Developer chat app 🤓",
+    link: "https://github.com/dionbiancha/devsapp",
+    type: SELECTED.mobileDev,
+  },
+  {
     year: "2023",
-    name: "Adaptour",
-    description: "Projeto idealizado para o Hackatour Cataratas 2023",
-    link: "#",
+    name: "Portfolio",
+    description: "Figma Portfolio version for the year 2021",
+    link: "https://www.figma.com/file/kmYoH4vdCZmQLtFiseE0YX/portfolio-2023?node-id=0%3A1&t=HN10OlYkYv9YJKPs-1",
     type: SELECTED.webdesign,
   },
   {
     year: "2023",
     name: "Adaptour",
-    description: "Projeto idealizado para o Hackatour Cataratas 2023",
-    link: "#",
+    description: "Figma idealized for Hackatour Cataratas 2023",
+    link: "https://www.figma.com/file/ViEREm1iDSwm5ke0cDingE/Design?node-id=615%3A3&t=vHl1XJ0KrNS4rvDY-1",
+    type: SELECTED.webdesign,
+  },
+  {
+    year: "2023",
+    name: "SOS Construir",
+    description:
+      "Figma Website of solutions in the area of ​​construction/renovations",
+    link: "https://www.figma.com/proto/slPO71A4Tae7B2VsdudfCx/SOS---Portif%C3%B3lio-Digital?page-id=0%3A1&node-id=12-100",
     type: SELECTED.webdesign,
   },
 ];
@@ -92,7 +128,11 @@ function ProjectsPage() {
         <div className={styles.listArea}>
           {LIST_PROJECTS.map((value, index) =>
             value.type === projectSelected ? (
-              <li key={index} className={styles.listItem}>
+              <li
+                key={index}
+                className={styles.listItem}
+                onClick={() => window.open(value.link, "_blank")}
+              >
                 <div className={styles.areaName}>
                   <span className={styles.yearItem}>{value.year}</span>
                   <span className={styles.nameItem}>{value.name}</span>
