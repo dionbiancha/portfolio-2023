@@ -11,7 +11,16 @@ import {
 import { useTranslation } from "react-i18next";
 import LanguageSelection from "src/features/LanguageSelection";
 import "./i18n";
-import { useEffect, useState } from "react";
+import {
+  RefObject,
+  useState,
+  useEffect,
+  FC,
+  useRef,
+  PropsWithChildren,
+  CSSProperties,
+  StrictMode,
+} from "react";
 import { MenuProvider } from "./context/MenuContext";
 
 function App() {

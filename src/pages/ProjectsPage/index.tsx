@@ -7,6 +7,7 @@ import {
 } from "react-icons/io";
 import { useTranslation } from "react-i18next";
 import { MenuContext } from "src/context/MenuContext";
+import Animate from "src/components/Animation";
 
 enum SELECTED {
   webdesign,
@@ -92,39 +93,48 @@ function ProjectsPage() {
   return (
     <div id="projects" className={styles.container}>
       <div className={styles.content}>
-        <h2 className={styles.title}>{t("Projetos Recentes")}</h2>
+        <Animate.FadeIn>
+          <h2 className={styles.title}>{t("Projetos Recentes")}</h2>
+        </Animate.FadeIn>
         <div className={styles.buttonArea}>
-          <div
-            className={
-              projectSelected === SELECTED.webdesign
-                ? styles.buttonSelected
-                : styles.button
-            }
-            onClick={() => handleSelect(SELECTED.webdesign)}
-          >
-            WEBDESIGN
-          </div>
-          <div
-            className={
-              projectSelected === SELECTED.webDev
-                ? styles.buttonSelected
-                : styles.button
-            }
-            onClick={() => handleSelect(SELECTED.webDev)}
-          >
-            WEB DEV.
-          </div>
-          <div
-            className={
-              projectSelected === SELECTED.mobileDev
-                ? styles.buttonSelected
-                : styles.button
-            }
-            onClick={() => handleSelect(SELECTED.mobileDev)}
-          >
-            MOBILE DEV.
-          </div>
+          <Animate.ScaleIn>
+            <div
+              className={
+                projectSelected === SELECTED.webdesign
+                  ? styles.buttonSelected
+                  : styles.button
+              }
+              onClick={() => handleSelect(SELECTED.webdesign)}
+            >
+              WEBDESIGN
+            </div>
+          </Animate.ScaleIn>
+          <Animate.ScaleIn>
+            <div
+              className={
+                projectSelected === SELECTED.webDev
+                  ? styles.buttonSelected
+                  : styles.button
+              }
+              onClick={() => handleSelect(SELECTED.webDev)}
+            >
+              WEB DEV.
+            </div>
+          </Animate.ScaleIn>
+          <Animate.ScaleIn>
+            <div
+              className={
+                projectSelected === SELECTED.mobileDev
+                  ? styles.buttonSelected
+                  : styles.button
+              }
+              onClick={() => handleSelect(SELECTED.mobileDev)}
+            >
+              MOBILE DEV.
+            </div>
+          </Animate.ScaleIn>
         </div>
+
         <div className={styles.listArea}>
           {LIST_PROJECTS.map((value, index) =>
             value.type === projectSelected ? (

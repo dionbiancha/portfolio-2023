@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { lala, riri, vivi } from "src/assets";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import Animate from "src/components/Animation";
 
 const TEAM_LIST = [
   {
@@ -32,7 +33,9 @@ function TeamPage() {
   return (
     <div id="projects" className={styles.container}>
       <div className={styles.content}>
-        <h2 className={styles.title}>{t("Equipe que ja trabalhei!")}</h2>
+        <Animate.FadeIn>
+          <h2 className={styles.title}>{t("Equipe que ja trabalhei!")}</h2>
+        </Animate.FadeIn>
         <div className={styles.team}>
           <AliceCarousel
             autoWidth={true}
@@ -46,9 +49,15 @@ function TeamPage() {
                 className={styles.item}
                 onClick={() => window.open(value.link, "_blank")}
               >
-                <img alt="img" className={styles.image} src={value.img} />
-                <div className={styles.name}>{value.name}</div>
-                <div className={styles.work}>{value.work}</div>
+                <Animate.ScaleIn>
+                  <img alt="img" className={styles.image} src={value.img} />
+                </Animate.ScaleIn>
+                <Animate.FadeUp>
+                  <div className={styles.name}>{value.name}</div>
+                </Animate.FadeUp>
+                <Animate.FadeUp>
+                  <div className={styles.work}>{value.work}</div>
+                </Animate.FadeUp>
               </li>
             ))}
           </AliceCarousel>

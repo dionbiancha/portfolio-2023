@@ -377,6 +377,13 @@
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
+"@types/react-animate-on-scroll@^2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@types/react-animate-on-scroll/-/react-animate-on-scroll-2.1.5.tgz#abd724800be21b2497e51356826cf7635233e99b"
+  integrity sha512-lGn+FcO9aYAdFND3R7yINwjh9IhCATpVeuI4dXZQMin42l+c83UldoQiflXgojrQJVVbNcMXWJt1k5DWEtbEUA==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-dom@^18.0.11":
   version "18.0.11"
   resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-18.0.11.tgz"

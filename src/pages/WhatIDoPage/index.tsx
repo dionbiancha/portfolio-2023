@@ -5,7 +5,8 @@ import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import { useTranslation } from "react-i18next";
 import MenuContext, { SELECTED } from "src/context/MenuContext";
-import { useState, useContext } from "react";
+import { useContext } from "react";
+import Animate from "src/components/Animation";
 
 const INFO_CARDS = [
   {
@@ -39,7 +40,10 @@ function WhatIDoPage() {
   const { setProjectSelected } = useContext(MenuContext);
   return (
     <div className={styles.content}>
-      <h2 className={styles.title}>{t("O que eu faço")}</h2>
+      <Animate.FadeIn>
+        <h2 className={styles.title}>{t("O que eu faço")}</h2>
+      </Animate.FadeIn>
+
       <div className={styles.cardArea}>
         <AliceCarousel
           autoWidth={true}
