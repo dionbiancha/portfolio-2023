@@ -156,6 +156,7 @@
   border-bottom: 1px solid #5a278c;
   cursor: pointer;
   color: #fff;
+  transition: 0.3s;
 }
 
 .listItem:hover {
@@ -163,6 +164,7 @@
   background-color: #fff;
   padding: 20px;
   border-radius: 9px;
+  transition: 0.3s;
 }
 
 .iconItem {
