@@ -55,9 +55,8 @@ function TeamPage() {
                 <Animate.FadeUp>
                   <div className={styles.name}>{value.name}</div>
                 </Animate.FadeUp>
-                <Animate.FadeUp>
-                  <div className={styles.work}>{value.work}</div>
-                </Animate.FadeUp>
+
+                <div className={styles.work}>{value.work}</div>
               </li>
             ))}
           </AliceCarousel>
