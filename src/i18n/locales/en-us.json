@@ -2,6 +2,9 @@
   "home": {
     "PROJETOS": "PROJECTS"
   },
+  "about": {
+    "OLÁ, EU SOU": "HELLO, I AM"
+  },
   "whatIdo": {
     "O que eu faço": "What I Do",
     "Encante seus usuários": "Delight your users",
@@ -15,14 +18,14 @@
     "Como podemos": "How we can",
     "trabalhar": "work",
     "juntos": "together",
-    "Detalhes": "Brief/Short Details",
-    "Venha com um resumo do projeto ou detalhes curtos do projeto que você tem atualmente para dar uma ideia do seu projeto ou produto.": "Come with a project summary or short details of the project you currently have to give an idea of ​​your project or product.",
+    "Detalhes": "Details",
+    "Venha com um resumo do projeto ou detalhes curtos do projeto que você tem atualmente para dar uma ideia do seu projeto ou produto.": "Explain the details of your project so we can have a chat and align what your idea/ project expectations are",
     "Perguntas": "Questions",
-    "Depois de obter os detalhes de você, farei perguntas relacionadas ao seu projeto para entender a duração e o escopo do projeto.": "After getting the details from you, I will ask you questions related to your project to understand the duration and scope of the project.",
+    "Depois de obter os detalhes de você, farei perguntas relacionadas ao seu projeto para entender a duração e o escopo do projeto.": "After getting all the details, I will ask you project related questions to better understand the scope and duration of our partnership.",
     "Orçamento": "Providing Quote",
-    "Estarei fornecendo-lhe uma cotação para o projeto depois de ter as respostas de você.": "I will be providing you with a quote for the project once I have the responses from you.",
+    "Estarei fornecendo-lhe uma cotação para o projeto depois de ter as respostas de você.": "I will be providing a quote for the project, once I have gathered all the information necessary",
     "Inicio": "Get Started",
-    "Se o orçamento funcionar para nós dois, podemos ter uma breve reunião ou podemos entrar diretamente no processo inicial.": "If the quote works for both of us, we can have a short meeting or we can directly jump into the process of getting started."
+    "Se o orçamento funcionar para nós dois, podemos ter uma breve reunião ou podemos entrar diretamente no processo inicial.": "If the quote works for us, we can schedule a briefing call or jump straight on the development"
   },
   "awards": {
     "Conquistas": "Achievements",

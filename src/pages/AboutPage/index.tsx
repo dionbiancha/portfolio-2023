@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import styles from "./styles.module.css";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { CharacterSketch } from "src/assets";
@@ -7,6 +8,7 @@ const LINK_LINKEDIN = "https://www.linkedin.com/in/dionbiancha/";
 const LINK_GITHUB = "https://github.com/dionbiancha";
 
 function AboutPage() {
+  const { t } = useTranslation("about");
   return (
     <div className={styles.content}>
       <div className={styles.backgroundRadial} />
@@ -16,7 +18,7 @@ function AboutPage() {
         src={CharacterSketch}
       />
       <Animate.FadeUp>
-        <p>HELLO, I AM</p>
+        <p>{t("OLÁ, EU SOU")}</p>
       </Animate.FadeUp>
       <Animate.FadeUp>
         <h1>DIONEI</h1>

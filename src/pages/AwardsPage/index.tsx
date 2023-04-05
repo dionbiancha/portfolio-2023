@@ -11,7 +11,7 @@ import { useTranslation } from "react-i18next";
 const AWARDS_LIST = [
   {
     year: "2023",
-    title: "Hackatour Cataratas",
+    title: "2° Hackatour Cataratas",
     logo: <img alt="icon" className={styles.iconCard} src={IconCard} />,
     text: "O Hackatour Cataratas é um espaço incentivador para o surgimento de novas soluções para o turismo, uma maratona de criação e desenvolvimento para que ideias possam ser concretizadas em bons negócios.",
   },
